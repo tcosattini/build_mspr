@@ -1,0 +1,42 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.colorGreen {
+    color: #659224;
+}
+
+.colorBlue {
+    color: #379ec1;
+}
+
+.topSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.identification {
+    border: 1px solid #379ec1;
+    padding: 10px 20px;
+}
+
+.tabulationClass {
+    margin-left: 20px;
+}
+
+.titre {
+    display: inline-block;
+    color: #659224;
+    text-transform: lowercase;
+}
+
+.titre::first-letter {
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
